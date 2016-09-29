@@ -1,0 +1,19 @@
+.kind {
+    display: flex;
+    background-color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.storelist {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.storelist-item {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: silver;
+}

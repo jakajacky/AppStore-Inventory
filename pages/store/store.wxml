@@ -1,0 +1,12 @@
+<view class="kind" style="flex-direction: row; justify-content: space-between;">
+    <view>Number</view>
+    <view>Store</view>
+    <view>Cityity</view>
+</view>
+<scroll-view class="inventory" scroll-y="true" style="height: 100%;" >
+    <view class="storelist{{idxx == index? '' : selected}}" wx:for="{{store}}" wx:for-index="index" wx:for-item="item" style="flex-direction: row; justify-content: space-between;" data-idx="{{index}}" bindtap="selectstore">
+        <text>{{item.storeNumber}}</text>
+        <text>{{item.storeName}}</text>
+        <text>{{item.storeCity}}</text>
+    </view>
+</scroll-view>
