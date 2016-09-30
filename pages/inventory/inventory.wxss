@@ -1,0 +1,22 @@
+.kind {
+    display: flex;
+    background-color: lightgray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inventorylist {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+}
+.inventorylist-item {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: silver;
+    height: 30px;
+}

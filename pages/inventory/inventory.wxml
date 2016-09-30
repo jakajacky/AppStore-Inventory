@@ -1,0 +1,20 @@
+<mask hidden="{{hidden1}}" bindtap="mask1" hover-style="none"/>
+
+<view class="kind" style="flex-direction: row; justify-content: space-between;">
+    <view>Product</view>
+    <view>Status</view>
+    
+</view>
+
+<scroll-view class="inventory" scroll-y="true" style="height: 100%;" >
+
+    <view class="inventorylist{{idxx != index? '' : selected}}" wx:for="{{device}}" wx:for-index="index" wx:for-item="item" style="flex-direction: row; justify-content: space-between; align-items:center;" data-idx="{{index}}">
+        <text classclass="tex">{{item.productDescription}}</text>
+        <text classclass="tex" >{{"ALL" == inventory[item.part_number]? "有货":"无货" }}</text>
+    </view>
+    
+    <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+    </loading>
+    
+</scroll-view>

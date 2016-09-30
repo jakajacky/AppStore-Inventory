@@ -7,13 +7,19 @@
 .storelist {
     display: flex;
     border-bottom: 1px solid #ccc;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
 }
 .storelist-item {
     display: flex;
     border-bottom: 1px solid #ccc;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: silver;
+    height: 30px;
+}
+
+.tex {
+    
 }
